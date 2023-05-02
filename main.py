@@ -6,8 +6,7 @@ from datetime import datetime, timedelta
 import time
 
 telegram_token = "6222047362:AAF6ScZQFK-IQAQ6hB1RL-QNFjZpugO7oa0"
-chat_id = "-1001875449300"
-
+chat_id = "-1001942938580"
 
 bot = telebot.TeleBot(telegram_token,parse_mode='HTML')
 
