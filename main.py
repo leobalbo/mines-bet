@@ -8,6 +8,7 @@ import time
 telegram_token = "6189698817:AAG0rxE98ohiKDRiuV6tnuU62rrTPPqyMlM"
 chat_id = "-1001926927184"
 
+
 bot = telebot.TeleBot(telegram_token,parse_mode='HTML')
 
 ####################
