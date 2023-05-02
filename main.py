@@ -5,8 +5,8 @@ from random import randint
 from datetime import datetime, timedelta
 import time
 
-telegram_token = "6222047362:AAF6ScZQFK-IQAQ6hB1RL-QNFjZpugO7oa0"
-chat_id = "-1001942938580"
+telegram_token = "6189698817:AAG0rxE98ohiKDRiuV6tnuU62rrTPPqyMlM"
+chat_id = "-1001926927184"
 
 bot = telebot.TeleBot(telegram_token,parse_mode='HTML')
 
