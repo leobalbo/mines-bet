@@ -22,6 +22,7 @@ tempo_espera = 4 # Tempo que o bot vai enviar a mensagem de green.
 tempo_proxima_msg = 120 # Em segundos para enviar possivel sinal depois de dar green.
 link_afiliado = "https://bit.ly/b1betminesb1bet"
 link_jogo = "https://www.b1.bet/#/game/casino?st=Mines&p=0&t=1000&g=spribe-1725-mines&f=false"
+link_jogo = "https://bit.ly/b1betminesb1bet"
 mensagem_possivel = '🌟Possíveis entradas detectadas\n\nSINAIS APENAS PARA O SITE DA B1BET\n <a href="'+link_afiliado+'">🔗 Cadastre-se aqui</a>\n\n 💰 Banca recomendada, acima de R$20,00'
 
 quantia_mensagem = 25 # Quantia de mensagem abaixo -1 (Ex: deu 26 linhas você tira 1 linha e da 25 não apagar a linha)
