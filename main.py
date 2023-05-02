@@ -4,10 +4,12 @@ import telebot
 from random import randint
 from datetime import datetime, timedelta
 import time
+import pytz
 
-telegram_token = "6189698817:AAG0rxE98ohiKDRiuV6tnuU62rrTPPqyMlM"
-chat_id = "-1001926927184"
+telegram_token = "6222047362:AAF6ScZQFK-IQAQ6hB1RL-QNFjZpugO7oa0"
+chat_id = "-1001942938580"
 
+tz = pytz.timezone('America/Sao_Paulo')
 
 bot = telebot.TeleBot(telegram_token,parse_mode='HTML')
 
@@ -68,7 +70,7 @@ while True:
 
     time.sleep(tempo_possivel_msg)
 
-    date = datetime.now()
+    date = datetime.now(tz)
     date_futur = date + timedelta(minutes=tempo_espera)
     date_futur_format = date_futur.strftime('%H:%M')
 
@@ -76,7 +78,7 @@ while True:
     bot.send_message(chat_id=chat_id, text='🔔 Entrada Cofirmada 🔔\n\n💣 Minas: 3\n🎯 Nº de tentativas: 2\n🕗 Sinal Valido até: ' + date_futur_format + '\n\n🔗 Cadastre-se aqui: <a href="'+link_jogo+'">Entrar</a> \n\n' + lista_mensagem[rangom_message])
 
     time.sleep(tempo_espera*60)
-    date_now = datetime.now()
+    date_now = datetime.now(tz)
     date_now_format = date_futur.strftime('%H:%M')
     bot.send_message(chat_id=chat_id, text='🔹 Sinal Finalizado 🔹\n\n🕑 Finalizado às: '+date_now_format+'\n✅✅✅GREEN✅✅✅')
     time.sleep(tempo_proxima_msg)
