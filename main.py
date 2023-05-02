@@ -19,7 +19,7 @@ tempo_espera = 4 # Tempo que o bot vai enviar a mensagem de green.
 tempo_proxima_msg = 120 # Em segundos para enviar possivel sinal depois de dar green.
 link_afiliado = "https://bit.ly/b1betroletagratuita23"
 link_jogo = "https://www.b1.bet/#/game/casino?st=Mines&p=0&t=1000&g=spribe-1725-mines&f=false"
-mensagem_possivel = '🌟Possíveis entradas detectadas\n\n CADASTRE-SE ANTES DE JOGAR ➡️\n <a href="'+link_afiliado+'">Mines B1Bet</a>\n\n 💰 Banca recomendada, acima de R$30,00'
+mensagem_possivel = '🌟Possíveis entradas detectadas\n\nSINAIS APENAS PARA O SITE DA B1BET\n <a href="'+link_afiliado+'">🔗 Cadastre-se aqui</a>\n\n 💰 Banca recomendada, acima de R$20,00'
 
 quantia_mensagem = 25 # Quantia de mensagem abaixo -1 (Ex: deu 26 linhas você tira 1 linha e da 25 não apagar a linha)
 lista_mensagem = [
@@ -72,7 +72,7 @@ while True:
     date_futur_format = date_futur.strftime('%H:%M')
 
     rangom_message = randint(0,quantia_mensagem)
-    bot.send_message(chat_id=chat_id, text='🔔 Entrada Cofirmada 🔔\n\n💣 Minas: 3\n🎯 Nº de tentativas: 2\n🕗 Sinal Valido até: ' + date_futur_format + '\n\n🔗 Link de acesso: <a href="'+link_jogo+'">Entrar</a> \n\n' + lista_mensagem[rangom_message])
+    bot.send_message(chat_id=chat_id, text='🔔 Entrada Cofirmada 🔔\n\n💣 Minas: 3\n🎯 Nº de tentativas: 2\n🕗 Sinal Valido até: ' + date_futur_format + '\n\n🔗 Cadastre-se aqui: <a href="'+link_jogo+'">Entrar</a> \n\n' + lista_mensagem[rangom_message])
 
     time.sleep(tempo_espera*60)
     date_now = datetime.now()
