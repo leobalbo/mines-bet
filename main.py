@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import time
 
 telegram_token = "6222047362:AAF6ScZQFK-IQAQ6hB1RL-QNFjZpugO7oa0"
-chat_id = "-1001942938580"
+chat_id = "-1001926927184"
 
 bot = telebot.TeleBot(telegram_token,parse_mode='HTML')
 
@@ -17,7 +17,7 @@ bot = telebot.TeleBot(telegram_token,parse_mode='HTML')
 tempo_possivel_msg = randint(35,40) # Tempo em segundos primeiro valor é o minimo, segundo valor é o maximo. (Ex: Vai gerar um numero entre 45 e 70)
 tempo_espera = 4 # Tempo que o bot vai enviar a mensagem de green.
 tempo_proxima_msg = 120 # Em segundos para enviar possivel sinal depois de dar green.
-link_afiliado = "https://bit.ly/b1betroletagratuita23"
+link_afiliado = "https://bit.ly/b1betminesb1bet"
 link_jogo = "https://www.b1.bet/#/game/casino?st=Mines&p=0&t=1000&g=spribe-1725-mines&f=false"
 mensagem_possivel = '🌟Possíveis entradas detectadas\n\nSINAIS APENAS PARA O SITE DA B1BET\n <a href="'+link_afiliado+'">🔗 Cadastre-se aqui</a>\n\n 💰 Banca recomendada, acima de R$20,00'
 
