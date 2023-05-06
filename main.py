@@ -33,13 +33,6 @@ mensagem_possivel = '🌟Possíveis entradas detectadas\n\nSINAIS APENAS PARA O 
 
 os.system('title Zety')
 print(colored('\n[Info]', 'dark_grey'), colored('Developer:', 'white'), colored('zety#7505', 'cyan'))
-print(colored('''
-     ______     ______     ______   __  __   
-    /\___  \   /\  ___\   /\__  _\ /\ \_\ \   
-    \/_/  /__  \ \  __\   \/_/\ \/ \ \____ \  
-      /\_____\  \ \_____\    \ \_\  \/\_____\ 
-      \/_____/   \/_____/     \/_/   \/_____/ 
-                  Bot - v0.1\n\n''', 'cyan'))
 print(colored('\n[Info]', 'dark_grey'), colored('Bot Iniciado com sucesso', 'green'))
 
 while True:
