@@ -26,10 +26,10 @@ tempo_proxima_msg = 120 # Em segundos para enviar possivel sinal depois de dar g
 min_stars = 3
 max_stars = 4
 
-link_afiliado = "https://bit.ly/b1betminesb1bet"
-link_jogo = "https://www.b1.bet/#/game/casino?st=Mines&p=0&t=1000&g=spribe-1725-mines&f=false"
-link_jogo = "https://bit.ly/b1betminesb1bet"
-mensagem_possivel = '🌟Possíveis entradas detectadas\n\nSINAIS APENAS PARA O SITE DA B1BET\n <a href="'+link_afiliado+'">🔗 Cadastre-se aqui</a>\n\n 💰 Banca recomendada, acima de R$20,00'
+link_afiliado = "https://go.aff.7k-partners.com/6cg24g2g"
+# link_jogo = "https://www.b1.bet/#/game/casino?st=Mines&p=0&t=1000&g=spribe-1725-mines&f=false"
+link_jogo = "https://go.aff.7k-partners.com/6cg24g2g"
+mensagem_possivel = '🌟Possíveis entradas detectadas\n\nSINAIS APENAS PARA O SITE DA 7KBET\n <a href="'+link_afiliado+'">🔗 Cadastre-se aqui</a>\n\n 💰 Banca recomendada, acima de R$30,00'
 
 os.system('title Zety')
 print(colored('\n[Info]', 'dark_grey'), colored('Developer:', 'white'), colored('zety#7505', 'cyan'))
@@ -66,5 +66,5 @@ while True:
   time.sleep(tempo_espera*60)
   date_now = datetime.now(tz)
   date_now_format = date_futur.strftime('%H:%M')
-  bot.send_message(chat_id=chat_id, text='🔹 Sinal Finalizado 🔹\n\n🕑 Finalizado às: '+date_now_format+'\n✅✅✅GREEN✅✅✅')
+  bot.send_message(chat_id=chat_id, text='🔹 Sinal Finalizado 🔹\n\n🕑 Finalizado às: '+date_now_format+'\n✅✅✅ GREEN ✅✅✅')
   time.sleep(tempo_proxima_msg)
