@@ -53,7 +53,7 @@ while True:
       index = random.choice([x for x in range(25) if x not in empty_spaces])
       line = line[:index] + "⭐" + line[index+1:]
 
-  bot.send_message(chat_id=chat_id, text=mensagem_possivel)
+  bot.send_message(chat_id=chat_id, text=mensagem_possivel, disable_web_page_preview=True)
 
   time.sleep(tempo_possivel_msg)
 
@@ -61,7 +61,7 @@ while True:
   date_futur = date + timedelta(minutes=tempo_espera)
   date_futur_format = date_futur.strftime('%H:%M')
 
-  bot.send_message(chat_id=chat_id, text='🔔 Entrada Cofirmada 🔔\n\n💣 Minas: 3\n🎯 Nº de tentativas: 2\n🕗 Sinal Valido até: ' + date_futur_format + '\n\n🔗 Cadastre-se aqui: <a href="'+link_jogo+'">Entrar</a> \n\n' + line.strip())
+  bot.send_message(chat_id=chat_id, text='🔔 Entrada Cofirmada 🔔\n\n💣 Minas: 3\n🎯 Nº de tentativas: 2\n🕗 Sinal Valido até: ' + date_futur_format + '\n\n🔗 Cadastre-se aqui: <a href="'+link_jogo+'">Entrar</a> \n\n' + line.strip(), disable_web_page_preview=True)
 
   time.sleep(tempo_espera*60)
   date_now = datetime.now(tz)
