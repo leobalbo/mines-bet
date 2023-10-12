@@ -7,8 +7,8 @@ from datetime import datetime, timedelta
 import time
 import pytz
 
-telegram_token = "6189698817:AAG0rxE98ohiKDRiuV6tnuU62rrTPPqyMlM"
-chat_id = "-1001926927184"
+telegram_token = "SEU TOKEN AQUI"
+chat_id = "ID DO CHAT AQUI"
 
 tz = pytz.timezone('America/Sao_Paulo')
 
@@ -26,9 +26,8 @@ tempo_proxima_msg = 120 # Em segundos para enviar possivel sinal depois de dar g
 min_stars = 3
 max_stars = 4
 
-link_afiliado = "https://go.aff.7k-partners.com/6cg24g2g"
-# link_jogo = "https://www.b1.bet/#/game/casino?st=Mines&p=0&t=1000&g=spribe-1725-mines&f=false"
-link_jogo = "https://go.aff.7k-partners.com/6cg24g2g"
+link_afiliado = "LINK DA PLATAFORMA"
+link_jogo = "LINK DA PLATAFORMA"
 mensagem_possivel = '🌟Possíveis entradas detectadas\n\nSINAIS APENAS PARA O SITE DA 7KBET\n <a href="'+link_afiliado+'">🔗 Cadastre-se aqui</a>\n\n 💰 Banca recomendada, acima de R$30,00'
 
 os.system('title Zety')
